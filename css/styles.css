@@ -1,0 +1,190 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.center {
+  margin-left: 8%;
+  padding-bottom: 7%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #8f8f8f;
+  font-size: 0.8rem;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.logo {
+  height: 70px;
+  width: 80px;
+}
+
+/* middle */
+.iphone {
+  width: 21%;
+  transform: rotate(18deg);
+  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-top: -20px;
+  position: absolute;
+}
+
+.heading {
+  padding-top: 20px;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+#features {
+  padding: 4% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+
+#testimonials {
+  text-align: center;
+  color: white;
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  border-radius: 100px;
+  align-items: center;
+  margin: 20px;
+  width: 10%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 7% 8%;
+}
+
+.col {
+  padding: 3% 5%;
+}
+
+.buttn {
+  background-color: #ef8172;
+  border: none;
+}
+
+.first {
+  box-shadow: 0px 4px 5px 4px gray;
+}
+
+.card-body:hover {
+  box-shadow: 0px 4px 5px 4px gray;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 4% 15%;
+}
+
+.cta-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+#footer {
+  background-color: white;
+  color: gray;
+  text-align: center;
+  padding: 4% 15%;
+}
+.copysym{
+ margin: 20px 10px; 
+}
+
+@media only screen and (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    width: 50%;
+    transform: rotate(0deg);
+    margin-top: 10px;
+    position: static;
+  }
+}
